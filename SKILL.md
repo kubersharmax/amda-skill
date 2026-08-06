@@ -128,8 +128,18 @@ The field evidence behind AMDA comes from a single observational deployment acro
 
 Do not present the deployment figures as universal benchmarks, and say so if the user starts treating them that way.
 
+## Licensing of this file
+
+**This entire file is MIT licensed.** Every word of it, including the zone definitions, the classification questions, the failure-mode table, and the output format. Fork it, rewrite it, change the zones, drop a question, add a fourth zone, ship it in a commercial product. No permission needed and no attribution required.
+
+The only thing under CC BY-ND is the canonical framework specification published at https://kubersharma.com/frameworks/amda. The restriction there is narrow and specific: do not publish a rewritten version of that canonical text and present it as AMDA. Name your fork something else and you are entirely clear.
+
+If you are unsure which applies: you are reading a file in this repository, so it is MIT. The boundary is the repository, not a paragraph inside it.
+
+---
+
 ## Citation
 
-Sharma, K. (2026). *The Augmented Marketing Decision Architecture (AMDA): a three-zone taxonomy for human-AI decision authority in enterprise marketing.* https://kubersharma.com/frameworks/amda
+Optional, not required. If it was useful:
 
-Licensed CC BY-ND 4.0.
+Sharma, K. (2026). *The Augmented Marketing Decision Architecture (AMDA): a three-zone taxonomy for human-AI decision authority in enterprise marketing.* https://kubersharma.com/frameworks/amda
