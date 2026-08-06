@@ -42,7 +42,9 @@ Restart Claude. That is it.
 
 ### If you just want to try it once
 
-Copy the contents of [`SKILL.md`](SKILL.md) and paste it into a conversation, followed by your question. It works fine as a one-off prompt. The install just saves you from pasting it every time.
+Copy the contents of [`SKILL.md`](SKILL.md) and paste it into a conversation, followed by your question. That is a fair way to test whether the classification is useful to you before installing anything.
+
+Installing is worth it once you are classifying more than a handful of decisions, because the skill then triggers on its own whenever a governance question comes up, rather than only when you remember to paste it.
 
 ---
 
@@ -121,7 +123,9 @@ A manuscript developing AMDA into a formal taxonomy is under review at the *Jour
 
 ## Contributing
 
-If you use this and the zones come out wrong for your context, open an issue and tell me what it missed. Edge cases are the useful feedback. Pull requests welcome on the skill instructions.
+If the zones come out wrong for your context, open an issue and tell me what it missed. Edge cases are the useful feedback, and the ones I want most are the decisions that sit awkwardly between two zones.
+
+Pull requests welcome. The skill is MIT licensed precisely so you can fork and modify it without asking.
 
 ---
 
@@ -131,4 +135,6 @@ If you use this and the zones come out wrong for your context, open an issue and
 
 By [Kuber Sharma](https://kubersharma.com), Senior Director of Product Marketing at UiPath.
 
-Framework text: CC BY-ND 4.0. See [LICENSE](LICENSE).
+**The skill is MIT licensed.** Fork it, change the zones, rewrite the questions, wire it into your own tooling, ship it inside a commercial product. No permission needed.
+
+The canonical AMDA framework text is CC BY-ND 4.0, meaning do not republish a rewritten version and still call it AMDA. Adapting the tool is encouraged. Redefining the framework under its own name is not. See [LICENSE](LICENSE).
