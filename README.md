@@ -108,7 +108,7 @@ The field evidence behind AMDA comes from a single observational deployment acro
 
 Full methods note: [kubersharma.com/frameworks/amda](https://kubersharma.com/frameworks/amda)
 
-A manuscript developing AMDA into a formal taxonomy is under review at the *Journal of the Academy of Marketing Science*, submitted July 2026.
+A manuscript developing AMDA into a formal taxonomy is submitted to the *Journal of the Academy of Marketing Science* in July 2026. Editorial decision pending.
 
 ---
 
