@@ -102,6 +102,37 @@ Most organizations are far more afraid of the second and far more damaged by the
 
 ---
 
+## Does it actually help?
+
+Tested honestly, against a baseline, because "an LLM already does this" is the first fair objection to any skill like this one.
+
+**Method.** Same prompt twice on GitHub Copilot, once with no skill and once with this skill loaded. Five workflows: dependency bump PRs behind CI, drafting and publishing a public changelog, writing a security advisory for a CVE, generating unit test scaffolding, replying to customer support tickets.
+
+**Result: the decisions were identical.** Baseline Copilot classified all five correctly on its own. It even split drafting from publishing without being told, and closed with its own version of the principle: *"automate when there's rapid feedback or low stakes; require human approval when publishing, committing to customers, or handling security/compliance."*
+
+So if you want a good answer to one question, you do not need this skill. Ask the model.
+
+**What the skill changed:**
+
+| | Baseline | With skill |
+|---|---|---|
+| Decisions | Correct | Same |
+| Reasoning | Implicit in prose | Reversibility, exposure and frequency stated per decision |
+| Format | Paragraphs | Decision / Zone / Rule / Why table |
+| Zone names | None | Named, so output drops into a policy doc |
+| Boundary split | Noticed in passing | Stated as a rule: drafting is Zone 1, publishing is Zone 2, gate the publish step |
+| Misclassification cost | Never produced | Produced every time |
+
+That last row is the only output element the baseline never generated unprompted.
+
+**So use this when** you are sorting twenty or forty workflows into something you have to defend to a security, legal or compliance reviewer, and you need the same three questions asked the same way for every row, with the cost of getting each one wrong written down.
+
+**Do not use this when** you have one decision and a competent model. You will get the same answer faster by just asking.
+
+That is the honest boundary. It is structure and consistency, not better judgment.
+
+---
+
 ## Scope and limits
 
 The field evidence behind AMDA comes from a single observational deployment across 16 enterprise product launches in one product marketing function at Tableau, a Salesforce company, prior to 2025. It is an observational deployment study, not a controlled experiment. Results reflect one context and yours may differ.
