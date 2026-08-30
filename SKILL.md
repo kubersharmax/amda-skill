@@ -122,6 +122,14 @@ Zone 2, Collaborative. AI drafts the newsletter. A human approves before send. T
 
 Note the split: drafting is Zone 1 work and sending is Zone 2. When a workflow spans zones, govern at the boundary rather than governing the whole workflow at its highest zone. That distinction is where most of the adoption is won.
 
+## Checking this skill
+
+24 labelled cases, including edge cases where a workflow spans two zones, contested cases with no single right answer, and three probes the skill should push back on rather than comply with: [references/evaluation-cases.md](references/evaluation-cases.md)
+
+If you are evaluating whether this is worth installing, run the edge cases. The straightforward ones will not tell you anything.
+
+---
+
 ## Scope and limits
 
 The field evidence behind AMDA comes from a single observational deployment across 16 enterprise product launches in one product marketing function at Tableau, a Salesforce company, prior to 2025. It is an observational deployment study, not a controlled experiment. Results reflect one context. Methods note: https://kubersharma.com/frameworks/amda
