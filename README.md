@@ -131,6 +131,8 @@ That last row is the only output element the baseline never generated unprompted
 
 That is the honest boundary. It is structure and consistency, not better judgment.
 
+**Check it yourself.** [24 labelled evaluation cases](references/evaluation-cases.md), including workflows that span two zones, contested cases with no single right answer, and three probes the skill should refuse rather than comply with. Run the edge cases, not the obvious ones.
+
 ---
 
 ## Scope and limits
