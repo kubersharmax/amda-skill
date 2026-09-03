@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "AMDA decision router: a Claude skill for AI governance zones"
+message: "If you use this skill or the framework behind it, please cite the framework."
+type: software
+authors:
+  - given-names: Kuber
+    family-names: Sharma
+    affiliation: UiPath
+    website: "https://kubersharma.com"
+repository-code: "https://github.com/kubersharmax/amda-skill"
+url: "https://kubersharma.com/frameworks/amda"
+abstract: >-
+  A Claude skill that classifies AI-assisted decisions into three governance
+  zones by reversibility, exposure and frequency: AI-Primary, Collaborative,
+  and Human-Primary. It states the governance rule for each zone and the cost
+  of misclassifying in either direction. Implements the Augmented Marketing
+  Decision Architecture. Skill implementation is MIT licensed; the canonical
+  framework text is CC BY-ND 4.0.
+keywords:
+  - claude skill
+  - agent skills
+  - AI governance
+  - human-in-the-loop
+  - decision authority
+  - product marketing
+  - go-to-market
+license: MIT
+version: "1.0"
+date-released: "2026-08-05"
+preferred-citation:
+  type: generic
+  title: "The Augmented Marketing Decision Architecture (AMDA): a three-zone taxonomy for human-AI decision authority in enterprise marketing"
+  authors:
+    - given-names: Kuber
+      family-names: Sharma
+      affiliation: UiPath
+  year: 2026
+  url: "https://kubersharma.com/frameworks/amda"
