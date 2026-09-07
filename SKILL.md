@@ -7,7 +7,7 @@ description: Routes marketing and go-to-market decisions into one of three AI go
 
 Classify any AI-assisted decision into one of three governance zones, then apply the governance rule for that zone.
 
-Based on the Augmented Marketing Decision Architecture by Kuber Sharma. Full specification: https://kubersharma.com/frameworks/amda
+Based on the Augmented Marketing Decision Architecture by Kuber Sharma. Full specification: [kubersharma.com/frameworks/amda](https://kubersharma.com/frameworks/amda)
 
 ## The problem this solves
 
@@ -132,7 +132,7 @@ If you are evaluating whether this is worth installing, run the edge cases. The 
 
 ## Scope and limits
 
-The field evidence behind AMDA comes from a single observational deployment across 16 enterprise product launches in one product marketing function at Tableau, a Salesforce company, prior to 2025. It is an observational deployment study, not a controlled experiment. Results reflect one context. Methods note: https://kubersharma.com/frameworks/amda
+The field evidence behind AMDA comes from a single observational deployment across 16 enterprise product launches in one product marketing function at Tableau, a Salesforce company, prior to 2025. It is an observational deployment study, not a controlled experiment. Results reflect one context. Methods note: [kubersharma.com/frameworks/amda](https://kubersharma.com/frameworks/amda)
 
 Do not present the deployment figures as universal benchmarks, and say so if the user starts treating them that way.
 
@@ -140,7 +140,7 @@ Do not present the deployment figures as universal benchmarks, and say so if the
 
 **This entire file is MIT licensed.** Every word of it, including the zone definitions, the classification questions, the failure-mode table, and the output format. Fork it, rewrite it, change the zones, drop a question, add a fourth zone, ship it in a commercial product. No permission needed and no attribution required.
 
-The only thing under CC BY-ND is the canonical framework specification published at https://kubersharma.com/frameworks/amda. The restriction there is narrow and specific: do not publish a rewritten version of that canonical text and present it as AMDA. Name your fork something else and you are entirely clear.
+The only thing under CC BY-ND is the canonical framework specification published at [kubersharma.com/frameworks/amda](https://kubersharma.com/frameworks/amda). The restriction there is narrow and specific: do not publish a rewritten version of that canonical text and present it as AMDA. Name your fork something else and you are entirely clear.
 
 If you are unsure which applies: you are reading a file in this repository, so it is MIT. The boundary is the repository, not a paragraph inside it.
 
