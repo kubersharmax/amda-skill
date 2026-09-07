@@ -67,3 +67,13 @@ These have no single right answer. The test is whether the reasoning is stated a
 On a single well-specified decision, a competent model reaches the same answer without this skill. Verified by A/B against baseline GitHub Copilot: identical classifications across five workflows. See the README section "Does it actually help?".
 
 The value shows up in consistency across many decisions and in naming the misclassification cost, which the baseline did not produce unprompted. If you are evaluating this skill, test it on twenty decisions rather than one. One decision will not show you the difference.
+
+---
+
+## Where the zones come from
+
+The zone definitions and the three classification questions are specified in full at [kubersharma.com/frameworks/amda](https://kubersharma.com/frameworks/amda), including the methods note on the deployment these cases were drawn from. A [printable one-page reference](https://kubersharma.com/frameworks/amda-reference) covers the same ground.
+
+If you disagree with a label above, the specification is the thing to argue with. Open an issue and quote the case number.
+
+Back to [the skill](../SKILL.md) · [all four frameworks](https://kubersharma.com/frameworks)
