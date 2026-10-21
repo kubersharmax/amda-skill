@@ -137,7 +137,7 @@ That is the honest boundary. It is structure and consistency, not better judgmen
 
 ## Scope and limits
 
-The field evidence behind AMDA comes from a single observational deployment across 16 enterprise product launches in one product marketing function at Tableau, a Salesforce company, prior to 2025. It is an observational deployment study, not a controlled experiment. Results reflect one context and yours may differ.
+The field evidence behind AMDA comes from a single observational deployment across 16 enterprise product launches in one product marketing function at a large enterprise software company, prior to 2025. It is an observational deployment study, not a controlled experiment. Results reflect one context and yours may differ.
 
 Full methods note: [kubersharma.com/frameworks/amda](https://kubersharma.com/frameworks/amda)
 
