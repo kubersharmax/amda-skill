@@ -1,0 +1,31 @@
+{
+  "name": "amda-skill",
+  "owner": {
+    "name": "Kuber Sharma",
+    "url": "https://kubersharma.com"
+  },
+  "description": "The Augmented Marketing Decision Architecture, packaged as an installable agent skill. Sorts marketing and go-to-market decisions into three AI governance zones.",
+  "homepage": "https://kubersharma.com/frameworks/amda",
+  "repository": "https://github.com/kubersharmax/amda-skill",
+  "plugins": [
+    {
+      "name": "amda-decision-router",
+      "source": "./",
+      "description": "Routes marketing and go-to-market decisions into three AI governance zones (AI-Primary, Collaborative, Human-Primary) by reversibility, exposure and frequency. States the governance rule for each zone and the cost of getting it wrong. Includes 24 labelled evaluation cases.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kuber Sharma",
+        "url": "https://kubersharma.com"
+      },
+      "keywords": [
+        "ai-governance",
+        "agent-skills",
+        "product-marketing",
+        "go-to-market",
+        "human-in-the-loop",
+        "decision-authority"
+      ],
+      "category": "marketing"
+    }
+  ]
+}
