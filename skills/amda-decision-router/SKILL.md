@@ -1,6 +1,6 @@
 ---
 name: amda-decision-router
-description: Routes marketing and go-to-market decisions into one of three AI governance zones (AI-Primary, Collaborative, Human-Primary) using the Augmented Marketing Decision Architecture. Use when someone asks which AI outputs need human review, how to set up AI governance for a marketing or GTM team, whether an agent should be allowed to act autonomously on a given task, why AI adoption is collapsing under review requirements, or asks to audit or classify a list of workflows for AI autonomy. Also triggers on "should a human review this", "can the agent just do this", "AI governance policy", "human in the loop", and "AMDA".
+description: Routes marketing and go-to-market decisions into one of three AI governance zones (AI-Primary, Collaborative, Human-Primary) using the Augmented Marketing Decision Architecture. Use when someone asks which AI outputs need human review, how to set up AI governance for a marketing or GTM team, whether an agent should be allowed to act autonomously on a given task, why AI adoption is collapsing under review requirements, or asks to audit or classify a list of workflows for AI autonomy. Also triggers on "should a human review this", "can the agent just do this", "AI governance policy", "human in the loop", and "AMDA". Full specification: kubersharma.com/frameworks/amda
 ---
 
 # AMDA decision router
