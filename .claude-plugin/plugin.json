@@ -1,0 +1,23 @@
+{
+  "name": "amda-decision-router",
+  "description": "Routes marketing and go-to-market decisions into three AI governance zones (AI-Primary, Collaborative, Human-Primary) by reversibility, exposure and frequency. Implements the Augmented Marketing Decision Architecture. Includes 24 labelled evaluation cases.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kuber Sharma",
+    "url": "https://kubersharma.com"
+  },
+  "homepage": "https://kubersharma.com/frameworks/amda",
+  "repository": "https://github.com/kubersharmax/amda-skill",
+  "license": "MIT",
+  "keywords": [
+    "ai-governance",
+    "agent-skills",
+    "product-marketing",
+    "go-to-market",
+    "human-in-the-loop",
+    "decision-authority"
+  ],
+  "skills": [
+    "./skills"
+  ]
+}
