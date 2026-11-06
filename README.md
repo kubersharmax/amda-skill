@@ -2,9 +2,16 @@
 
 **A Claude skill that tells you which AI outputs need a human, and which ones do not.**
 
-Point it at a workflow, a task, or a list of forty of them. It sorts each one into AI-Primary, Collaborative, or Human-Primary, gives you the governance rule for that zone, and names what breaks if you get it wrong.
+```
+/plugin marketplace add kubersharmax/amda-skill
+/plugin install amda-decision-router@amda-skill
+```
 
-Built on the [Augmented Marketing Decision Architecture](https://kubersharma.com/frameworks/amda), a framework developed in an enterprise product marketing function and observed across 16 product launches.
+Then ask it anything like *"should a human review this before it goes out?"* and it answers with a zone, a governance rule, and the cost of getting it wrong.
+
+Point it at one decision or at a list of forty. It sorts each into AI-Primary, Collaborative or Human-Primary.
+
+Built on the [Augmented Marketing Decision Architecture](https://kubersharma.com/frameworks/amda), a framework developed in an enterprise product marketing function and observed across 16 product launches. A version of this skill ships in [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills/releases/tag/v2.13.0) as of release v2.13.0.
 
 ---
 
@@ -20,34 +27,32 @@ Both come from applying one rule to every decision. Generating forty subject lin
 
 ---
 
-## Install
+## Other ways to install
 
-### If you use Claude Code or Cowork
-
-Clone into your skills folder:
+### Manually, into your skills folder
 
 ```bash
-git clone https://github.com/kubersharmax/amda-skill.git ~/.claude/skills/amda-decision-router
+git clone https://github.com/kubersharmax/amda-skill.git /tmp/amda-skill
+cp -r /tmp/amda-skill/skills/amda-decision-router ~/.claude/skills/
 ```
 
-Restart Claude. That is it.
+Restart Claude. Note that you copy the `skills/amda-decision-router` folder, not the whole repository.
 
-### If you would rather not use the terminal
+### Without the terminal
 
 1. Click the green **Code** button at the top of this page, then **Download ZIP**.
-2. Unzip it.
-3. Move the folder into `~/.claude/skills/` and rename it `amda-decision-router`.
+2. Unzip it, and open the `skills` folder inside.
+3. Move the `amda-decision-router` folder into `~/.claude/skills/`.
    On a Mac, `~` means your user folder. Press `Cmd + Shift + G` in Finder and paste `~/.claude/skills` to get there. If the `skills` folder does not exist, make it.
 4. Restart Claude.
 
-### If you just want to try it once
+### Just to try it once
 
-Copy the contents of [`SKILL.md`](SKILL.md) and paste it into a conversation, followed by your question. That is a fair way to test whether the classification is useful to you before installing anything.
+Copy the contents of [`skills/amda-decision-router/SKILL.md`](skills/amda-decision-router/SKILL.md) and paste it into a conversation, followed by your question. That is a fair way to test whether the classification is useful to you before installing anything.
 
 Installing is worth it once you are classifying more than a handful of decisions, because the skill then triggers on its own whenever a governance question comes up, rather than only when you remember to paste it.
 
 ---
-
 ## Using it
 
 Ask in plain language. Some things that trigger it:
@@ -131,7 +136,7 @@ That last row is the only output element the baseline never generated unprompted
 
 That is the honest boundary. It is structure and consistency, not better judgment.
 
-**Check it yourself.** [24 labelled evaluation cases](references/evaluation-cases.md), including workflows that span two zones, contested cases with no single right answer, and three probes the skill should refuse rather than comply with. Run the edge cases, not the obvious ones.
+**Check it yourself.** [24 labelled evaluation cases](skills/amda-decision-router/references/evaluation-cases.md), including workflows that span two zones, contested cases with no single right answer, and three probes the skill should refuse rather than comply with. Run the edge cases, not the obvious ones.
 
 ---
 
