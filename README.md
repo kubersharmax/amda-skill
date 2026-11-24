@@ -1,6 +1,6 @@
 # Agent skills for enterprise AI go-to-market
 
-**Three Claude skills. One decides which AI outputs need a human. One tells you why your AI pilot has not shipped. One tells you why your deal has not closed.**
+**Four Claude skills, one per framework. Which AI outputs need a human. Why your pilot has not shipped. Why your deal has not closed. Why your pitch is not landing.**
 
 ```
 /plugin marketplace add kubersharmax/amda-skill
@@ -35,7 +35,15 @@ Finds which of three sequential trust layers a buyer is stuck on. Technical, doe
 
 Based on [the Trust Architecture](https://kubersharma.com/frameworks/trust-architecture).
 
-All three return "unknown" rather than guessing when an input is missing. That is deliberate and the evaluation cases test for it.
+### 4. `belief-bridge-builder`
+
+*"Why is this pitch not landing?"*
+
+Audits a pitch, deck or message for four planks. Evidence, it works for someone. Analogy, the familiar shape it fits inside. Proof Point, a customer close enough to this buyer to count. Transfer, the one sentence the buyer repeats to their boss. Names the missing plank and drafts the Transfer sentence in the buyer's voice. [16 labelled evaluation cases](skills/belief-bridge-builder/references/evaluation-cases.md), including pitches strong on three planks that still lose.
+
+Based on [the Belief Bridge](https://kubersharma.com/frameworks/belief-bridge).
+
+All four return "unknown" rather than guessing when an input is missing. That is deliberate, and the 74 evaluation cases test for it.
 
 
 Built on the [Augmented Marketing Decision Architecture](https://kubersharma.com/frameworks/amda), a framework developed in an enterprise product marketing function and observed across 16 product launches. A version of this skill ships in [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills/releases/tag/v2.13.0) as of release v2.13.0.
