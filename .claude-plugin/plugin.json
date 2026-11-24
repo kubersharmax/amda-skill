@@ -1,7 +1,7 @@
 {
   "name": "amda-decision-router",
-  "description": "Two skills for enterprise AI go-to-market. amda-decision-router sorts marketing and GTM decisions into three governance zones by reversibility, exposure and frequency. pilot-trap-auditor places an AI pilot on a five-stage arc and names which of six infrastructure gaps are still open. Each ships with labelled evaluation cases.",
-  "version": "1.1.0",
+  "description": "Three skills for enterprise AI go-to-market. amda-decision-router sorts marketing and GTM decisions into three governance zones by reversibility, exposure and frequency. pilot-trap-auditor places an AI pilot on a five-stage arc and names which of six infrastructure gaps are open. trust-architecture-diagnostic finds which of three sequential trust layers is blocking a deal. Each ships with labelled evaluation cases.",
+  "version": "1.2.0",
   "author": {
     "name": "Kuber Sharma",
     "url": "https://kubersharma.com"
@@ -17,6 +17,8 @@
     "human-in-the-loop",
     "decision-authority",
     "pilot-trap",
-    "enterprise-ai"
+    "enterprise-ai",
+    "sales-enablement",
+    "buyer-trust"
   ]
 }
