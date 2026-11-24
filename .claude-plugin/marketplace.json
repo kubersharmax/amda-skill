@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "amda-decision-router",
-      "source": "./",
+      "source": ".",
       "description": "Routes marketing and go-to-market decisions into three AI governance zones (AI-Primary, Collaborative, Human-Primary) by reversibility, exposure and frequency. States the governance rule for each zone and the cost of getting it wrong. Includes 24 labelled evaluation cases.",
       "version": "1.0.0",
       "author": {
