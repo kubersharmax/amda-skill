@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "AMDA decision router: a Claude skill for AI governance zones"
+title: "Agent skills for enterprise AI go-to-market: AMDA decision router and Pilot Trap auditor"
 message: "If you use this skill or the framework behind it, please cite the framework."
 type: software
 authors:
@@ -25,8 +25,8 @@ keywords:
   - product marketing
   - go-to-market
 license: MIT
-version: "1.0"
-date-released: "2026-08-05"
+version: "1.1"
+date-released: "2026-11-24"
 preferred-citation:
   type: generic
   title: "The Augmented Marketing Decision Architecture (AMDA): a three-zone taxonomy for human-AI decision authority in enterprise marketing"
