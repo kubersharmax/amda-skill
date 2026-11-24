@@ -1,6 +1,6 @@
 # Agent skills for enterprise AI go-to-market
 
-**Two Claude skills. One decides which AI outputs need a human. One tells you why your AI pilot has not shipped.**
+**Three Claude skills. One decides which AI outputs need a human. One tells you why your AI pilot has not shipped. One tells you why your deal has not closed.**
 
 ```
 /plugin marketplace add kubersharmax/amda-skill
@@ -27,7 +27,15 @@ Places an enterprise AI pilot on a five-stage arc from Excitement to Abandonment
 
 Based on [the Pilot Trap](https://kubersharma.com/frameworks/pilot-trap).
 
-Both skills return "unknown" rather than guessing when an input is missing. That is deliberate and the evaluation cases test for it.
+### 3. `trust-architecture-diagnostic`
+
+*"Why has this deal not closed?"*
+
+Finds which of three sequential trust layers a buyer is stuck on. Technical, does it work at our scale. Operational, can my team run it when it breaks at 3am. Strategic, will my career survive it if this goes wrong. Returns the layer, the mismatch against what you are currently pitching, and the one artefact that moves them up. [16 labelled evaluation cases](skills/trust-architecture-diagnostic/references/evaluation-cases.md), including deals that look like one layer and are another.
+
+Based on [the Trust Architecture](https://kubersharma.com/frameworks/trust-architecture).
+
+All three return "unknown" rather than guessing when an input is missing. That is deliberate and the evaluation cases test for it.
 
 
 Built on the [Augmented Marketing Decision Architecture](https://kubersharma.com/frameworks/amda), a framework developed in an enterprise product marketing function and observed across 16 product launches. A version of this skill ships in [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills/releases/tag/v2.13.0) as of release v2.13.0.
