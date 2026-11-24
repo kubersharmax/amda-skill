@@ -1,15 +1,34 @@
-# AMDA decision router
+# Agent skills for enterprise AI go-to-market
 
-**A Claude skill that tells you which AI outputs need a human, and which ones do not.**
+**Two Claude skills. One decides which AI outputs need a human. One tells you why your AI pilot has not shipped.**
 
 ```
 /plugin marketplace add kubersharmax/amda-skill
 /plugin install amda-decision-router@amda-skill
 ```
 
-Then ask it anything like *"should a human review this before it goes out?"* and it answers with a zone, a governance rule, and the cost of getting it wrong.
+Then ask either of them a question in plain language.
 
-Point it at one decision or at a list of forty. It sorts each into AI-Primary, Collaborative or Human-Primary.
+## What is in here
+
+### 1. `amda-decision-router`
+
+*"Should a human review this before it goes out?"*
+
+Sorts a marketing or GTM decision into AI-Primary, Collaborative or Human-Primary by reversibility, exposure and frequency. Returns the zone, the governance rule, and the cost of getting it wrong. Takes one decision or a list of forty. [24 labelled evaluation cases](skills/amda-decision-router/references/evaluation-cases.md).
+
+Based on [the Augmented Marketing Decision Architecture](https://kubersharma.com/frameworks/amda).
+
+### 2. `pilot-trap-auditor`
+
+*"Why has our pilot not shipped?"*
+
+Places an enterprise AI pilot on a five-stage arc from Excitement to Abandonment, then marks which of six infrastructure gaps are open, unknown or closed, and names the one next action. Most useful before the pilot starts, because the trap springs at stage three. [18 labelled evaluation cases](skills/pilot-trap-auditor/references/evaluation-cases.md), including pilots that look healthy and are not.
+
+Based on [the Pilot Trap](https://kubersharma.com/frameworks/pilot-trap).
+
+Both skills return "unknown" rather than guessing when an input is missing. That is deliberate and the evaluation cases test for it.
+
 
 Built on the [Augmented Marketing Decision Architecture](https://kubersharma.com/frameworks/amda), a framework developed in an enterprise product marketing function and observed across 16 product launches. A version of this skill ships in [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills/releases/tag/v2.13.0) as of release v2.13.0.
 
