@@ -16,8 +16,5 @@
     "go-to-market",
     "human-in-the-loop",
     "decision-authority"
-  ],
-  "skills": [
-    "./skills"
   ]
 }
